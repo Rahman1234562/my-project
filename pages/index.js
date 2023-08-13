@@ -31,7 +31,7 @@ export default function Home() {
         <h3 className="javascript-para">How to learn javaScript in 2023?</h3>
         <p>javaScript is a language used for web logic</p>
         <h3 className="javascript-para">How to learn javaScript in 2023?</h3>
-        <p>javaScript is a language used for web logic</p>
+        <p>javaScript is a language used for web logic and see more</p>
       </div>
     </>
   );

@@ -20,6 +20,13 @@ export default function Home() {
         <Image className="home-img" src="/homeimg.avif" alt="this is coder image" width={250} height={160}/>
 
         <p className="para">all the programming language solution get <span className="here">here</span></p>
+        <h2 className="popular">Popular Blogs</h2>
+      <h3 className="javascript-para">How to learn javaScript in 2023?</h3>
+        <p>javaScript is a language used for web logic</p>
+        <h3 className="javascript-para">How to learn javaScript in 2023?</h3>
+        <p>javaScript is a language used for web logic</p>
+        <h3 className="javascript-para">How to learn javaScript in 2023?</h3>
+        <p>javaScript is a language used for web logic</p>
        </div>
     </>
   );

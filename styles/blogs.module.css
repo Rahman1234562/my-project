@@ -1,10 +1,23 @@
 .main4{
+    /* text-align: center; */
+    /* margin-top: 2rem; */
+    min-height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:center;
+    align-items: center;
+    padding-top: 3rem;
+    flex-wrap: wrap;
     text-align: center;
-    margin-top: 2rem;
 }
-.popular{
+/* .popular{
     margin-top: 3rem;
-}
+} */
 .main2{
     margin-top: 2rem;
+}
+.mainpara{
+    /* max-width: 45vw; */
+margin : 1rem 6rem
 }

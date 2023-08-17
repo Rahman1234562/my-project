@@ -2,17 +2,10 @@ import React, { useEffect, useState } from "react";
 import classes from "@/styles/blogs.module.css";
 import Link from "next/link";
 
-const Blogs = () => {
-  const [blogs, setBlogs] = useState([]);
-  useEffect(() => {
-    fetch("http://localhost:3000/api/blog")
-      .then((a) => {
-        return a.json();
-      })
-      .then((parsed) => {
-        setBlogs(parsed);
-      });
-  }, []);
+const Blogs = (props) => {
+  console.log(props)
+  const [blogs, setBlogs] = useState(props.allBlogs);
+
   return (
     <div className={classes.main4}>
       {blogs.map((blogitem) => {
@@ -30,5 +23,15 @@ const Blogs = () => {
     </div>
   );
 };
+
+export async function getServerSideProps(){
+    let data = await fetch("http://localhost:3000/api/blog")
+    let allBlogs = await data.json()
+
+
+  return{
+    props:{allBlogs},
+  }
+} 
 
 export default Blogs;

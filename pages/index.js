@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <div className="main-para">
-        <h1 className="code dummy">problem solve coder</h1>
+        <h1 className="code dummy">problem solving coder</h1>
         <Image className="home-img" src="/homeimg.avif" alt="this is coder image" width={250} height={160}/>
 
         <p className="para">all the programming language solution get <span className="here">here</span></p>

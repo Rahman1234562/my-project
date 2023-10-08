@@ -15,7 +15,7 @@ const Blogs = (props) => {
               <h3 className={classes.main2}>{blogitem.title}</h3>
             </Link>
             <p className={classes.mainpara}>
-              {blogitem.content.substr(0, 140)}...{" "}
+              {blogitem.content.substr(0, 100)}...{" "}
             </p>
           </div>
         );
@@ -23,6 +23,7 @@ const Blogs = (props) => {
     </div>
   );
 };
+
 
 export async function getServerSideProps(){
     let data = await fetch("http://localhost:3000/api/blog")

@@ -7,7 +7,7 @@ const About = () => {
       <h1 className={style.center}>About Problem Solving Coder</h1>
       <h2 className={style.intro}>Intruduction</h2>
       <p>our mission is to solve the problem on my online way to approve the biggner exprience
-        this is great opertunity for biggner to sovle thier problem online Problem Solving Coder help them 
+        this is great opertunity for biggner to solve thier problem online Problem Solving Coder help them 
         to approve thier skill better 
       </p>
       <h2 className={style.contact}>Contact our member for online duscussion</h2>
